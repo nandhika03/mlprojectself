@@ -12,10 +12,10 @@ def get_requirements(file_path:str)->List[str]:
     return requirements
 
 setup(
-    version = "0.0.1"
-    author = "Nandhika Rajmanikandan"
-    packages = find_packages()
-    name = 'mlmodulself'
-    author_email = 'rmnandhika@gmail.com'
+    version = '0.0.1',
+    author = 'Nandhika Rajmanikandan',
+    packages = find_packages(),
+    name = 'mlmodulself',
+    author_email = 'rmnandhika@gmail.com',
     install_requires = get_requirements("requirements.txt")
 )
